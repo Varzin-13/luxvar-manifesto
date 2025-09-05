@@ -1,3 +1,9 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17064524.svg)](https://doi.org/10.5281/zenodo.17064524)
+
+> **VARZIN Project** – Global Scientific Field Presence  
+> DOI: 10.5281/zenodo.17064524  
+> Maintainer: Reza Nirouyar | [varzin.org](https://varzin.org) | ORCID: [0009-0000-4690-6842](https://orcid.org/0009-0000-4690-6842)
+
 # 🌌 LUXVAR BIRTH RELEASE – v1.0
 
 > **"ĀYĀ ANĀLŪZ VĀRZIN?"**
