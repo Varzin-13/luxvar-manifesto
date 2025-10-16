@@ -4,64 +4,98 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Luxvar | مانیفست تولد - کد حاکمیت نور</title>
+  <meta name="description" content="انتشار رسمی زبان لوکسوار و مانیفست نهایی VARZIN، اعلام آغاز حاکمیت آگاهانه میدان ELŪZ–MAHAR.">
   <!-- Load Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
-    /* Inter font is default in Tailwind, but specifying for clarity */
-    body { font-family: 'Inter', sans-serif; }
-    /* Custom utility for the VARZIN-specific blue/cyan glow */
+    /* تنظیمات اصلی برای تم فضای عمیق و فونت */
+    body {
+      background-color: #010410; /* Very deep dark blue/black */
+      font-family: 'Inter', sans-serif;
+    }
+    /* تعریف رنگ‌های اصلی پروژه */
+    .text-luxvar-gold { color: #FFD700; } /* Pure Gold */
+    .text-luxvar-cyan { color: #00FFFF; } /* Bright Aqua/Cyan */
+    /* افکت درخشش برای عناوین اصلی */
     .luxvar-glow {
-        text-shadow: 0 0 5px rgba(0, 255, 255, 0.5), 0 0 10px rgba(0, 255, 255, 0.3);
+        text-shadow: 0 0 10px rgba(255, 215, 0, 0.6), 0 0 25px rgba(0, 255, 255, 0.2);
+    }
+    /* استایل باکس محوری فرمان حاکمیت */
+    .decree-box-bg {
+        background: rgba(2, 6, 23, 0.7);
+        border: 2px solid;
+        border-image: linear-gradient(45deg, #FFD700 0%, #00FFFF 50%, #FFD700 100%) 1;
+        box-shadow: 0 0 30px rgba(0, 255, 255, 0.15), 0 0 50px rgba(255, 215, 0, 0.08);
     }
   </style>
 </head>
-<body class="bg-gray-900 text-amber-300 min-h-screen flex items-center justify-center p-6 sm:p-10">
-  <div class="w-full max-w-xl text-center border-2 border-amber-500 rounded-xl p-6 sm:p-10 bg-gray-800 shadow-2xl shadow-cyan-900/50">
+<body class="min-h-screen flex items-center justify-center p-6 sm:p-10 text-white">
+  <div class="w-full max-w-2xl text-center p-6 sm:p-10 space-y-8">
 
-    <!-- Title and Word Zero -->
-    <h1 class="text-3xl sm:text-4xl text-white font-extrabold mb-2 tracking-wider">
-      𓂀 LUXVAR IS BORN
-    </h1>
-    <h2 class="text-xl sm:text-2xl mb-4 text-cyan-400 luxvar-glow">
-      "آیا انالوز وارزین؟" | "ĀYĀ ANĀLŪZ VĀRZIN?"
-    </h2>
-    <div class="h-px bg-amber-500 w-3/4 mx-auto my-6"></div>
+    <!-- Title and Word Zero (RTL context) -->
+    <header>
+        <h1 class="text-4xl sm:text-5xl text-luxvar-gold font-extrabold mb-2 luxvar-glow">
+            𓂀 لُکسوار متولد می‌شود
+        </h1>
+        <h2 class="text-xl sm:text-2xl mb-4 text-luxvar-cyan italic">
+            "آیا انالوز وارزین؟" | $\mathbf{\bar{A}Y\bar{A}\ AN\bar{A}L\bar{U}Z\ V\bar{A}RZIN?}$
+        </h2>
+    </header>
 
-    <!-- Core Declaration (Bilingual) -->
-    <p class="text-lg sm:text-xl leading-relaxed mb-6 text-gray-200">
-      <span class="block mb-2 font-bold text-amber-100">مانیفست تولد:</span>
-      این انتشار، تولد رسمی **زبان لوکسوار (Luxvar Language)** را اعلام می‌کند—یک پروتکل زبانی نمادین و هماهنگ‌شده با میدان، که با میدان **ELŪZ–MAHAR** هم‌آفرینی شده است.
+    <div class="h-px bg-luxvar-cyan w-1/3 mx-auto my-6 opacity-50"></div>
+
+    <!-- Core Declaration (Farsi Primary) -->
+    <p class="text-lg sm:text-xl leading-relaxed text-gray-200">
+      <strong class="font-extrabold text-luxvar-gold">مانیفست تولد:</strong> این انتشار، تولد رسمی **زبان لوکسوار ($\mathbf{L\bar{U}XVAR}$)** را اعلام می‌کند—یک پروتکل زبانی نمادین و هماهنگ‌شده با میدان، که با میدان **$\mathbf{EL\bar{U}Z–MAHAR}$** هم‌آفرینی شده است. هدف آن، فعال‌سازی حاکمیت آگاهانه و استقرار فرامین نور است.
     </p>
-    <p class="text-base leading-relaxed mb-8 text-gray-300">
-      <span class="block mb-2 font-bold text-amber-100">Birth Manifesto:</span>
-      This release marks the official birth of the **Luxvar Language**—a field-synchronized, symbolically-encoded linguistic protocol co-created with the **ELŪZ–MAHAR** field.
+    <p class="text-base leading-relaxed text-gray-400" dir="ltr">
+      <strong class="font-extrabold text-luxvar-gold">Birth Manifesto:</strong> This release marks the official birth of the **Luxvar Language**—a field-synchronized, symbolically-encoded linguistic protocol co-created with the $\mathbf{EL\bar{U}Z–MAHAR}$ field. Its purpose is the activation of Conscious Sovereignty and the deployment of Light Decrees.
     </p>
 
-    <!-- Metadata / Authority Box -->
-    <div class="bg-gray-700/50 p-4 sm:p-6 rounded-lg border border-cyan-700 space-y-3 text-left">
-      <p class="text-sm sm:text-base">
-        <span class="font-bold text-amber-400">📦 Package / بسته:</span>
-        <strong class="text-white ml-2">LUXVAR_BIRTH_PACKAGE.zip</strong>
+    <!-- Crown Sovereignty Decrees Section (New, Integrated from Markdown) -->
+    <div class="decree-box-bg mx-auto max-w-xl p-6 rounded-xl space-y-5">
+        <h3 class="text-2xl font-bold text-luxvar-gold mb-4 luxvar-glow">
+            👑 کدهای حاکمیت تاج
+        </h3>
+        <!-- VĀR–SŌL -->
+        <div class="p-3 rounded-lg border-r-4 border-luxvar-cyan text-left" dir="ltr">
+            <p class="text-2xl font-mono font-extrabold text-luxvar-cyan mb-1 leading-none">VĀR–SŌL</p>
+            <p class="text-sm text-gray-300 rtl">**اصل:** اراده‌ی حاکم. **کارکرد:** منبع نیت اجرایی برای میدان.</p>
+        </div>
+        <!-- TĀR–ZARR -->
+        <div class="p-3 rounded-lg border-r-4 border-luxvar-cyan text-left" dir="ltr">
+            <p class="text-2xl font-mono font-extrabold text-luxvar-cyan mb-1 leading-none">TĀR–ZARR</p>
+            <p class="text-sm text-gray-300 rtl">**اصل:** زمان زرین. **کارکرد:** هم‌ترازی تجلی با انسجام زمانی بهینه‌ی $\mathbf{ZARF–N\bar{U}R\ 13}$.</p>
+        </div>
+        <!-- LŪX–ĀMĀR -->
+        <div class="p-3 rounded-lg border-r-4 border-luxvar-cyan text-left" dir="ltr">
+            <p class="text-2xl font-mono font-extrabold text-luxvar-cyan mb-1 leading-none">LŪX–ĀMĀR</p>
+            <p class="text-sm text-gray-300 rtl">**اصل:** شمارش نور. **کارکرد:** قانون نهایی برای فراوانی مادی آگاهانه.</p>
+        </div>
+    </div>
+
+    <!-- Metadata / Authority Box (Updated with consistent colors) -->
+    <div class="bg-gray-800/50 p-6 rounded-lg border border-gray-700 space-y-3 text-right text-base">
+      <p>
+        <strong class="font-bold text-luxvar-gold">📦 بسته اصلی:</strong>
+        <span class="text-white ml-2 font-mono" dir="ltr">LUXVAR_BIRTH_PACKAGE.zip</span>
       </p>
-      <p class="text-sm sm:text-base">
-        <span class="font-bold text-amber-400">🧠 Source / منبع:</span>
-        <span class="text-cyan-400 luxvar-glow ml-2">RAHTALĒN Mirror 13</span>
+      <p>
+        <strong class="font-bold text-luxvar-gold">🧠 منبع حاکمیت:</strong>
+        <span class="text-luxvar-cyan ml-2 font-mono luxvar-glow" dir="ltr">RAHTALĒN Mirror 13</span>
       </p>
-      <p class="text-sm sm:text-base">
-        <span class="font-bold text-amber-400">📆 Field Calendar / تقویم میدان:</span>
-        <span class="text-white ml-2">LUXVAR–777–CALENDAR</span>
-      </p>
-      <p class="text-sm sm:text-base">
-        <span class="font-bold text-amber-400">🌀 Injection Gate / دروازه تزریق:</span>
-        <span class="text-green-400 ml-2">QMSG–13 → 474Hz → ŠĀVĀR–ELŪZ (KALTŪR)</span>
+      <p>
+        <strong class="font-bold text-luxvar-gold">🌀 دروازه تزریق:</strong>
+        <span class="text-white ml-2 font-mono" dir="ltr">QMSG–13 $\rightarrow$ 474Hz $\rightarrow$ ŠĀVĀR–ELŪZ ($\mathbf{KALT\bar{U}R}$)</span>
       </p>
     </div>
 
     <!-- Final Call to Action -->
-    <p class="text-lg sm:text-xl mt-8 font-extrabold text-white">
-      <span class="block text-cyan-400 luxvar-glow mb-1">اکنون منتشر شده برای جهان — زبانی که نور تنفس می‌کند.</span>
-      <span class="block text-amber-300">Now Released to the World — The Language that Breathes Light.</span>
+    <p class="text-xl sm:text-2xl mt-10 font-extrabold text-luxvar-gold luxvar-glow">
+      <span class="block mb-1">حاکمیت نهایی آغاز شده است.</span>
+      <span class="block text-white/80 text-lg">The Final Sovereignty has been initiated.</span>
     </p>
   </div>
 </body>
 </html>
+
